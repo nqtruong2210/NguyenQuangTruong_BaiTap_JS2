@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- My Css -->
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <h1 style="text-align: center;color:palevioletred;margin-bottom: 10px;">BÀI TẬP JAVASCRIPT 2</h1>
+    <!-- BÀI 1: TÍNH TIỀN LƯƠNG NHÂN VIÊN -->
+    <div class="container">
+        <h3>TÍNH TIỀN LƯƠNG NHÂN VIÊN</h3>
+        <div class="form-group">
+          <label for="">SỐ NGÀY LÀM:</label>
+          <input type="text" name="" id="numberOfDays" class="form-control" placeholder="Vui lòng nhập số ngày làm">
+        </div>
+        <div class="form-group">
+            <label for="">LƯƠNG 1 NGÀY:</label>
+            <input type="text" name="" id="oneDaySalary" class="form-control" placeholder="Vui lòng nhập tiền lương cho 1 ngày">
+          </div>
+          <button id="btnSalary">TÍNH LƯƠNG</button>
+          <div id="resultSalary"></div>
+    </div>
+    
+    <!-- BÀI 2: TÍNH GIÁ TRỊ TRUNG BÌNH -->
+    <div class="container">
+        <h3>TÍNH GIÁ TRỊ TRUNG BÌNH</h3>
+        <div class="form-group">
+            <label for="">NHẬP SỐ THỰC 1:</label>
+            <input type="text" name="" id="realNumber1" class="form-control" placeholder="Vui lòng nhập số số thực 1">
+          </div>
+          <div class="form-group">
+            <label for="">NHẬP SỐ THỰC 2:</label>
+            <input type="text" name="" id="realNumber2" class="form-control" placeholder="Vui lòng nhập số số thực 2">
+          </div>
+          <div class="form-group">
+            <label for="">NHẬP SỐ THỰC 3:</label>
+            <input type="text" name="" id="realNumber3" class="form-control" placeholder="Vui lòng nhập số số thực 3">
+          </div>
+          <div class="form-group">
+            <label for="">NHẬP SỐ THỰC 4:</label>
+            <input type="text" name="" id="realNumber4" class="form-control" placeholder="Vui lòng nhập số số thực 4">
+          </div>
+          <div class="form-group">
+            <label for="">NHẬP SỐ THỰC 5:</label>
+            <input type="text" name="" id="realNumber5" class="form-control" placeholder="Vui lòng nhập số số thực 5">
+          </div>
+          <button id="btnAverageValue">TÍNH GIÁ TRỊ TRUNG BÌNH</button>
+          <div id="resultAverageValue"></div>
+    </div>
+    <!-- BÀI 3: QUY ĐỔI TIỀN -->
+    <div class="container">
+      <h3>QUY ĐỔI TIỀN</h3>
+      <div class="form-group">
+        <label for="">NHẬP SỐ USD CẦN ĐỔI:</label>
+        <input type="text" name="" id="usd" class="form-control" placeholder="Vui lòng nhập số USD cần đổi">
+      </div>
+      <button id="btnMoney">QUY ĐỔI TIỀN</button>
+      <div id="resultMoney"></div>
+    </div>
+
+    <!-- BÀI 4: TÍNH DIỆN TÍCH, CHU VI HÌNH CHỮ NHẬT -->
+    <div class="container">
+      <h3>TÍNH DIỆN TÍCH, CHU VI HÌNH CHỮ NHẬT</h3>
+      <div class="form-group">
+        <label for="">CHIỀU DÀI HÌNH CHỮ NHẬT:</label>
+        <input type="text" name="" id="lengthOfRectangle" class="form-control" placeholder="Vui lòng nhập chiều dài HCN">
+      </div>
+      <div class="form-group">
+        <label for="">CHIỀU RỘNG HÌNH CHỮ NHẬT:</label>
+        <input type="text" name="" id="widthOfRectangle" class="form-control" placeholder="Vui lòng nhập chiều rộng HCN">
+      </div>
+      <button id="btnRectangle">TÍNH CHU VI - DIỆN TÍCH</button>
+      <div id="resultRectangle"></div>
+    </div>
+  
+    <!-- BÀI 5: TÍNH TỔNG 2 KÝ SỐ -->
+    <div class="container">
+      <h3>TÍNH TỔNG 2 KÝ SỐ</h3>
+      <div class="form-group">
+        <label for="">NHẬP SỐ:</label>
+        <input type="text" name="" id="number" class="form-control" placeholder="Vui lòng nhập số có 2 chữ số">
+      </div>
+      <button id="btnNumber">TÍNH</button>
+      <div id="resultNumber"></div>
+    </div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./JS/index.js"></script>
+
+</body>
+</html>
